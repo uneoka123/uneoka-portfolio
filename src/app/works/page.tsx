@@ -26,7 +26,7 @@ const Works = () => {
               description="高品質のカスタムイメージジェネレータを製作しました。"
               href="https://youtube-clone-nailheart.vercel.app"
               githubUrl=""
-              topics={['nextjs', 'typescript', 'mongoDb', 'tailwindcss']}
+              topics={['nextjs', 'typescript', 'node', 'mongoDb', 'tailwindcss', 'azure']}
             />
           </li>
           <li>
@@ -46,17 +46,17 @@ const Works = () => {
               description="このプラットフォームは、ホテル、フライト、アクティビティの予約オプションを提供し、旅行計画のための包括的なリソースになります。"
               href="https://www.tripadvisor.com/"
               githubUrl=""
-              topics={['react', 'tailwindcss', 'node', 'mongoDb', ]}
+              topics={['react', 'tailwindcss', 'nest', 'mongoDb', ]}
             />
           </li>
           <li>
             <Card
-              img="/img/works/mogo.jpg"
-              title="Mogo"
-              description="Creative landing page template."
-              href="https://nailheart.github.io/Mogo/"
-              githubUrl="https://github.com/Nailheart/Mogo"
-              topics={['simple-bar', 'sass', 'gulp', 'google-maps']}
+              img="/img/works/6-2.png"
+              title="Avatarチャットボット"
+              description="Holoworld AI は、お気に入りの AI キャラクターやアバターとチャットできるプラットフォームです。"
+              href="https://www.holoworldai.com"
+              githubUrl=""
+              topics={['nextjs', 'typescript', 'tailwindcss', 'chatgpt', 'langchain', 'azure']}
             />
           </li>
           <li>
@@ -64,60 +64,39 @@ const Works = () => {
               img="/img/works/safari.jpg"
               title="サファリ"
               description="静的なマルチページストア。"
-              href="https://nailheart.github.io/Safari/"
-              githubUrl="https://github.com/Nailheart/Safari"
+              href="https://uneoka123.github.io/safari-landing/"
+              githubUrl=""
               topics={['jinja', 'gulp', 'sass']}
             />
           </li>
           <li>
             <Card
-              img="/img/works/cat-energy.jpg"
-              title="Cat Energy"
-              description="Online food store for cats."
-              href="https://nailheart.github.io/377731-cat-energy-21/"
-              githubUrl="https://github.com/Nailheart/377731-cat-energy-21"
-              topics={['html', 'less', 'google-maps']}
+              img="/img/works/4-2.png"
+              title="マッチングサイト"
+              description="さまざまなカテゴリの地域サービス専門家と個人を結びつけるプラットフォームです。"
+              href="https://www.thumbtack.com/"
+              githubUrl=""
+              topics={['nextjs', 'tailwindcss', 'node', 'aws']}
             />
           </li>
           <li>
             <Card
-              img="/img/works/technomart.jpg"
-              title="Technomart"
-              description="Store of building materials and repair tools."
-              href="https://nailheart.github.io/377731-technomart-29/"
-              githubUrl="https://github.com/Nailheart/377731-technomart-29"
-              topics={['html', 'css']}
+              img="/img/works/5-1.png"
+              title="顧客管理システム"
+              description="Req は通常、チームや組織内でのコミュニケーション、コラボレーション、効率性を高める機能を提供しています。"
+              href="https://req.co/"
+              githubUrl=""
+              topics={['vue', 'css', 'laravel', 'mariadb']}
             />
           </li>
           <li>
             <Card
-              img="/img/works/todo.jpg"
-              title="Todo"
-              description="Simple to do list with save on localStorage."
-              href="https://nailheart.github.io/Todo/"
-              githubUrl="https://github.com/Nailheart/Todo"
-              topics={['js', 'sass']}
-            />
-          </li>
-          <li>
-            <Card
-              img="/img/works/sol-conveter.jpg"
-              title="Sol conveter"
-              description="Convert sols (Martian solar day) to day (Earth solar day)."
-              href="https://nailheart.github.io/sol-converter/"
-              githubUrl="https://github.com/Nailheart/sol-converter"
-              topics={['html', 'js', 'sass']}
-            />
-          </li>
-
-          <li>
-            <Card
-              img="/img/works/memory-game.jpg"
-              title="Memory game"
-              description="Responsive memory game."
-              href="https://nailheart.github.io/memory-game/"
-              githubUrl="https://github.com/Nailheart/memory-game"
-              topics={['html', 'js', 'sass']}
+              img="/img/works/7-1.png"
+              title="ECサイト"
+              description="このサイトでは、一般的に国内外の市場に対応するさまざまなコレクションやアイテムを含む製品ラインナップを紹介します。"
+              href="https://www.nikko-tabletop.jp/"
+              githubUrl=""
+              topics={['shopify', 'aws']}
             />
           </li>
         </ul>

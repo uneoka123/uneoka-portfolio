@@ -48,6 +48,7 @@ import Wordpress from '@/../public/img/icons/wordpress-icon.svg';
 import Shopify from '@/../public/img/icons/shopify-logo-svgrepo-com.svg';
 import MongoDB from '@/../public/img/icons/mongodb-icon.svg';
 import MySQL from '@/../public/img/icons/mysql.svg';
+import MariaDB from '@/../public/img/icons/mariadb.svg';
 import Firebase from '@/../public/img/icons/firebase.svg';
 import ChatGPT from '@/../public/img/icons/chatgpt.svg';
 import Pinecone from '@/../public/img/icons/pine-cone-systems.svg';
@@ -102,6 +103,7 @@ const icons: Record<IconName, FC<SVGProps<SVGSVGElement>>> = {
   shopify:Shopify,
   mongoDb:MongoDB,
   mysql:MySQL,
+  mariadb:MariaDB,
   firebase:Firebase,
   chatgpt:ChatGPT,
   pinecone:Pinecone,

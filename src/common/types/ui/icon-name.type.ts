@@ -43,6 +43,7 @@ type IconName =
   | 'shopify'
   | 'mongoDb'
   | 'mysql'
+  | 'mariadb'
   | 'firebase'
   | 'chatgpt'
   | 'pinecone'
