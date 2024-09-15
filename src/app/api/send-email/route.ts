@@ -27,7 +27,7 @@ const POST = async (req: Request) => {
     await transporter.sendMail({
       from: email,
       to: email,
-      subject: "Message from portfolio",
+      subject: "ポートフォリオからのメッセージ",
       text: data.message,
       html: `
         <div>
@@ -38,9 +38,9 @@ const POST = async (req: Request) => {
       `
     });
     
-    return NextResponse.json({ message: 'success' });
+    return NextResponse.json({ message: '成功' });
   } catch (error) {
-    return NextResponse.json({ message: 'Something went wrong' });
+    return NextResponse.json({ message: '問題が発生しました' });
   }
 }
 

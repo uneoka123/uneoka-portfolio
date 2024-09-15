@@ -58,9 +58,9 @@ const ContactForm = () => {
             errors?.name && styles.inputError
           )}
           type="text"
-          placeholder="Name"
+          placeholder="名前"
           {...register('name', {
-            required: 'Name is required.'
+            required: 'お名前は必須です。'
           })}
         />
         {errors?.name && <span className={styles.error}>{errors.name.message}</span>}
@@ -73,12 +73,12 @@ const ContactForm = () => {
             errors?.email && styles.inputError
           )}
           type="email"
-          placeholder="Email"
+          placeholder="メール"
           {...register('email', {
-            required: 'Email is required.',
+            required: 'メールは必須です。',
             pattern: {
               value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
-              message: 'Please enter a valid email address.',
+              message: '有効なメールアドレスを入力してください。',
             },
           })}
         />
@@ -92,9 +92,9 @@ const ContactForm = () => {
             errors?.message && styles.inputError
           )}
           rows={6}
-          placeholder="Message"
+          placeholder="メッセージ"
           {...register('message', {
-            required: 'Message is required.'
+            required: 'メッセージは必須です。'
           })}
         />
         {errors?.message && <span className={styles.error}>{errors.message.message}</span>}
@@ -108,7 +108,7 @@ const ContactForm = () => {
         {isLoading && (
           <Spinner size={12} />
         )}
-        Submit
+        送信
       </Button>
     </form>
   );

@@ -10,7 +10,7 @@ const Contacts = () => {
     <section id="contacts" className={styles.contacts}>
       <div className={styles.content}>
         <h2 className={styles.title}>
-          Contact <span>Me!</span>
+        ご<span>連絡</span>ください！
         </h2>
 
         <div className={styles.info}>
@@ -24,7 +24,6 @@ const Contacts = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                nailheart4@gmail.com
               </Link>
             </div>
           </div>
@@ -32,21 +31,21 @@ const Contacts = () => {
             <Icon className={styles.icon} name="location" size={30} />
             <div>
               <h3 className={styles.infoTitle}>Location</h3>
-              <span>Ukraine, Dnipro region</span>
+              <span>日本</span>
             </div>
           </div>
         </div>
 
-        <div className={styles.social}>
+        {/* <div className={styles.social}>
           <SocialLink
             className={styles.socialLink}
-            href="https://github.com/Nailheart"
+            href=""
             iconName="github"
             title="github"
           />
           <SocialLink
             className={styles.socialLink}
-            href="https://join.skype.com/invite/D5WcE8DUXPR9"
+            href=""
             iconName="skype"
             title="skype"
           />
@@ -68,7 +67,7 @@ const Contacts = () => {
             iconName="codepen"
             title="codepen"
           />
-        </div>
+        </div> */}
       </div>
       <ContactForm />
     </section>
