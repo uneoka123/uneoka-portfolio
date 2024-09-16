@@ -27,7 +27,7 @@ const Portfolio = () => {
             img="/img/works/3-1.png"
             title="画像ジェネレーター"
             description="高品質のカスタムイメージジェネレータを製作しました。"
-            href="https://youtube-clone-nailheart.vercel.app"
+            href="https://idolly.ai/"
             githubUrl=""
             topics={['nextjs', 'typescript', 'mongoDb', 'tailwindcss']}
           />
