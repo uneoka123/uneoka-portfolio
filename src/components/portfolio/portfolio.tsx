@@ -29,7 +29,7 @@ const Portfolio = () => {
             description="高品質のカスタムイメージジェネレータを製作しました。"
             href="https://idolly.ai/"
             githubUrl=""
-            topics={['nextjs', 'typescript', 'mongoDb', 'tailwindcss']}
+            topics={['nextjs', 'typescript', 'mongoDb', 'tailwindcss', 'chatgpt']}
           />
         </li>
         <li>
