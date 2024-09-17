@@ -39,7 +39,7 @@ const Portfolio = () => {
             description="このシステムのフロントエンドを開発しました。"
             href="https://amazon-ads-system-frontend.onrender.com/ja/dashboard"
             githubUrl=""
-            topics={['nextjs', 'prisma', 'typescript', 'tailwindcss']}
+            topics={['nextjs', 'prisma', 'typescript', 'tailwindcss', 'chatgpt']}
           />
         </li>
       </ul>
