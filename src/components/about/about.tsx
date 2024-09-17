@@ -13,6 +13,7 @@ const About = () => {
     { title: 'Tailwind', iconName: 'tailwindcss1', href: 'https://tailwindcss.com/docs/installation' },
     { title: 'JavaScript', iconName: 'js', href: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/' },
     { title: 'TypeScript', iconName: 'typescript', href: 'https://www.typescriptlang.org/' },
+    { title: 'Python', iconName: 'python', href: '/' },
     { title: 'Next.js', iconName: 'nextjs', href: 'https://nextjs.org/' },
     { title: 'React', iconName: 'react', href: 'https://react.dev/' },
     { title: 'VueJs', iconName: 'vue', href: '/' },

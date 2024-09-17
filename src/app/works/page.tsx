@@ -30,13 +30,13 @@ const Works = () => {
             />
           </li>
           <li>
-            <Card
-              img="/img/works/ad.png"
-              title="Amazon広告分析システム"
-              description="このシステムのフロントエンドを開発しました。"
-              href="https://amazon-ads-system-frontend.onrender.com/ja/dashboard"
+            <VideoCard
+              video="/img/works/oil.mp4"
+              title="チャットボット"
+              description="RAG技術を用いてユーザーフレンドリーなNLPチャットボットを制作し、サイトに統合しました。"
+              href="https://doctorsoil.co.jp/column/efficacy/article-250"
               githubUrl=""
-              topics={['nextjs', 'prisma', 'typescript', 'tailwindcss']}
+              topics={['react', 'typescript', 'tailwindcss', 'langchain', 'chatgpt', 'pinecone']}
             />
           </li>
           <li>
@@ -46,7 +46,7 @@ const Works = () => {
               description="このプラットフォームは、ホテル、フライト、アクティビティの予約オプションを提供し、旅行計画のための包括的なリソースになります。"
               href="https://www.tripadvisor.com/"
               githubUrl=""
-              topics={['react', 'tailwindcss', 'nest', 'mongoDb', ]}
+              topics={['react', 'tailwindcss', 'nest', 'mongoDb',]}
             />
           </li>
           <li>
@@ -57,6 +57,26 @@ const Works = () => {
               href="https://www.holoworldai.com"
               githubUrl=""
               topics={['nextjs', 'typescript', 'tailwindcss', 'chatgpt', 'langchain', 'azure']}
+            />
+          </li>
+          <li>
+            <VideoCard
+              video="/img/works/Eldoah.mp4"
+              title="スクレイピングとDiscord Bot"
+              description="サイトからエボリューションゲームの結果を取得し、それを分析してDiscordサーバーに配信するボットを開発しました。"
+              href="https://www.eldoah.com/"
+              githubUrl=""
+              topics={['python', 'bot']}
+            />
+          </li>
+          <li>
+            <Card
+              img="/img/works/ad.png"
+              title="Amazon広告分析システム"
+              description="このシステムのフロントエンドを開発しました。"
+              href="https://amazon-ads-system-frontend.onrender.com/ja/dashboard"
+              githubUrl=""
+              topics={['nextjs', 'prisma', 'typescript', 'tailwindcss']}
             />
           </li>
           <li>

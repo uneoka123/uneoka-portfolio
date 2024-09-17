@@ -16,6 +16,7 @@ import JS from '@/../public/img/icons/js.svg';
 import LinkedIn from '@/../public/img/icons/linkedin.svg';
 import Location from '@/../public/img/icons/location.svg';
 import Mail from '@/../public/img/icons/mail.svg';
+import Bot from '@/../public/img/icons/robot-svgrepo-com.svg';
 import NextJs from '@/../public/img/icons/nextjs.svg';
 import React from '@/../public/img/icons/react.svg';
 import Rocket from '@/../public/img/icons/rocket.svg';
@@ -30,6 +31,7 @@ import Linkify from '@/../public/img/icons/linkify.svg';
 import RapidApi from '@/../public/img/icons/rapid-api.svg';
 import SimpleBar from '@/../public/img/icons/simple-bar.svg';
 import Pusher from '@/../public/img/icons/pusher.svg';
+import Python from '@/../public/img/icons/python.svg';
 import Upstash from '@/../public/img/icons/upstash.svg';
 import Redis from '@/../public/img/icons/redis.svg';
 import Tailwindcss from '@/../public/img/icons/tailwindcss.svg';
@@ -60,6 +62,7 @@ import Git from '@/../public/img/icons/git-icon.svg';
 
 const icons: Record<IconName, FC<SVGProps<SVGSVGElement>>> = {
   arrowUp: ArrowUp,
+  bot:Bot,
   code: Code,
   css: CSS,
   externalLink: ExternalLink,
@@ -85,6 +88,7 @@ const icons: Record<IconName, FC<SVGProps<SVGSVGElement>>> = {
   'rapid-api': RapidApi,
   'simple-bar': SimpleBar,
   pusher: Pusher,
+  python:Python,
   upstash: Upstash,
   redis: Redis,
   tailwindcss: Tailwindcss,

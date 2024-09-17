@@ -1,5 +1,6 @@
 type IconName =
   | 'arrowUp'
+  | 'bot'
   | 'code'
   | 'css'
   | 'externalLink'
@@ -25,6 +26,7 @@ type IconName =
   | 'rapid-api'
   | 'simple-bar'
   | 'pusher'
+  | 'python'
   | 'upstash'
   | 'redis'
   | 'tailwindcss'

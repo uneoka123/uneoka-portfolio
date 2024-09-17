@@ -33,13 +33,13 @@ const Portfolio = () => {
           />
         </li>
         <li>
-          <Card
-            img="/img/works/ad.png"
-            title="Amazon広告分析システム"
-            description="このシステムのフロントエンドを開発しました。"
-            href="https://amazon-ads-system-frontend.onrender.com/ja/dashboard"
+          <VideoCard
+            video="/img/works/oil.mp4"
+            title="チャットボット"
+            description="RAG技術を用いてユーザーフレンドリーなNLPチャットボットを制作し、サイトに統合しました。"
+            href="https://doctorsoil.co.jp/column/efficacy/article-250"
             githubUrl=""
-            topics={['nextjs', 'prisma', 'typescript', 'tailwindcss', 'chatgpt']}
+            topics={['react', 'typescript', 'tailwindcss', 'langchain', 'chatgpt', 'pinecone']}
           />
         </li>
       </ul>
