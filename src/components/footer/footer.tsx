@@ -16,7 +16,7 @@ const Footer = () => {
         <p className={styles.copyright}>
           <span>
             © {new Date().getFullYear().toString()}&nbsp;
-            Made with <span className={styles.heart}>&#10084;</span> by&nbsp;
+            Made with<span className={styles.heart}>&#10084;</span> by&nbsp;
           </span>
           <button className={styles.name} onClick={handleScrollToTop}>
             Uneoka&nbsp;Kenta
