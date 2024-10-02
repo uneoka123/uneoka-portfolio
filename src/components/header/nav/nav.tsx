@@ -15,6 +15,7 @@ const Nav = () => {
   const navItems = [
     { id: 'home', label: 'Home' },
     { id: 'about', label: 'About' },
+    { id: 'certifies', label: 'Certifies' },
     { id: 'projects', label: 'Projects' },
     { id: 'contacts', label: 'Contacts' },
   ];
