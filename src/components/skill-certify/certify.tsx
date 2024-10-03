@@ -9,6 +9,34 @@ const Certify = () => {
         スキル認証
       </h2>
       <ul className={styles.list}>
+      <li>
+          <img
+            src="/img/certify/softwareCertify.png"
+            width={550}
+            height={320}
+          />
+        </li>
+        <li>
+          <img
+            src="/img/certify/reactCertify.png"
+            width={550}
+            height={320}
+          />
+        </li>
+        <li>
+          <img
+            src="/img/certify/nodeCertify.png"
+            width={550}
+            height={320}
+          />
+        </li>
+        <li>
+          <img
+            src="/img/certify/restfullCertify.png"
+            width={550}
+            height={320}
+          />
+        </li>
         <li>
           <img
             src="/img/certify/JavascriptCertify.png"
@@ -19,13 +47,6 @@ const Certify = () => {
         <li>
           <img
             src="/img/certify/pythonCertify.png"
-            width={550}
-            height={320}
-          />
-        </li>
-        <li>
-          <img
-            src="/img/certify/sqlCertify.png"
             width={550}
             height={320}
           />

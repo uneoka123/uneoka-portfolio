@@ -8,6 +8,34 @@ const SkillCheck = () => {
         <ul className={styles.certifylist}>
           <li>
             <img
+              src="/img/certify/softwareCertify.png"
+              width={550}
+              height={320}
+            />
+          </li>
+          <li>
+            <img
+              src="/img/certify/reactCertify.png"
+              width={550}
+              height={320}
+            />
+          </li>
+          <li>
+            <img
+              src="/img/certify/nodeCertify.png"
+              width={550}
+              height={320}
+            />
+          </li>
+          <li>
+            <img
+              src="/img/certify/restfullCertify.png"
+              width={550}
+              height={320}
+            />
+          </li>
+          <li>
+            <img
               src="/img/certify/JavascriptCertify.png"
               width={550}
               height={320}
@@ -16,6 +44,13 @@ const SkillCheck = () => {
           <li>
             <img
               src="/img/certify/pythonCertify.png"
+              width={550}
+              height={320}
+            />
+          </li>
+          <li>
+            <img
+              src="/img/certify/cppCertify.png"
               width={550}
               height={320}
             />
@@ -55,13 +90,7 @@ const SkillCheck = () => {
               height={320}
             />
           </li>
-          <li>
-            <img
-              src="/img/certify/cppCerfify.png"
-              width={550}
-              height={320}
-            />
-          </li>
+
         </ul>
       </div>
     </section>
