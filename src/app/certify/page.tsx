@@ -15,7 +15,7 @@ const SkillCheck = () => {
           </li>
           <li>
             <img
-              src="/img/certify/reactCertify.png"
+              src="/img/certify/frontendCertify.png"
               width={550}
               height={320}
             />
